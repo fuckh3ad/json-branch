@@ -1,0 +1,40 @@
+{
+    "IsError": false,
+    "IgnoreLocalCache": true,
+    "Data": [
+      {
+        "table_name": "dim_Contact",
+        "column_name": [
+          "MMKTSendNotificationNewWebUser",
+          "MMKTNonWebUser",
+          "LockedOutOfWeb",
+          "EmailPreferenceURL",
+          "PositionLevel",
+          "wk_Institution",
+          "fk_CurrentInstitution"
+        ]
+      },
+      {
+        "table_name": "dim_Institution",
+        "column_name": [
+          "fk_CurrentInstitution",
+          "InitiativePilot",
+          "InferredMember",
+          "SourceID",
+          "PositionLevel",
+          "wk_Institution"
+        ]
+      },
+      {
+        "table_name": "dim_ActivityType",
+        "column_name": [
+          "EffectiveDate",
+          "ExpirationDate",
+          "PositionLevel",
+          "wk_Institution",
+          "fk_CurrentInstitution"
+        ]
+      }
+    ]
+  }
+  
